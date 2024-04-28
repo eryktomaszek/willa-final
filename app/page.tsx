@@ -69,7 +69,7 @@ const Page = () => {
       <div id="thumbnailLinks">
         <ThumbnailLinks thumbnails={thumbnails} />
       </div>
-      <Photo src="/mainpic.jpg" captionSrc="/caption2.png" />{" "}
+      <Photo src="/mainpic.jpg" captionSrc="/Caption2.png" />{" "}
     </div>
   );
 };
