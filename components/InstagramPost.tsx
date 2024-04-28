@@ -9,7 +9,16 @@ import {
 import { faEllipsisH as fasEllipsisH } from "@fortawesome/free-solid-svg-icons";
 import { faHeart as fasHeartSolid } from "@fortawesome/free-solid-svg-icons"; // Import for solid heart
 
-const InstagramPost = ({ posts }) => {
+interface Post {
+  href: string;
+  image: {
+    src: string;
+    alt: string;
+  };
+  caption: string;
+}
+
+const InstagramPost = ({ posts }: { posts: Post[] }) => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8 font-josefin">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
