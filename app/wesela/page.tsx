@@ -49,7 +49,7 @@ const thumbnails = [
       kompleksowe doświadczenie kulinarne.`,
   },
   {
-    img: "/img-wesela/PakietPremium.jpg",
+    img: "/img-wesela/PakietPremium.JPG",
     label: "PAKIET PREMIUM",
 
     caption: `Pakiet weselny premium oferuje wyjątkową ucztę kulinarą z przystawką, 
